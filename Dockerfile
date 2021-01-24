@@ -3,7 +3,7 @@ FROM i386/golang:1.14-stretch
 RUN apt-get update && apt-get install -y \
     sudo \
     unzip \ 
-    libc6-dev-i386 \
+    libc6-dev \
     uuid-dev \
     # unrar \
     && apt-get clean autoclean \
